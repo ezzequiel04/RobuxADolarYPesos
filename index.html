@@ -7,8 +7,8 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f2f2f2;
-            color: #333;
+            background-color: #18171c;
+            color: #9f9f9f;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -17,23 +17,25 @@
         }
         .container {
             text-align: center;
-            background-color: #fff;
+            background-color: #292830;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
         }
         input[type="number"] {
             padding: 10px;
-            margin: 10px 0;
+            margin: 20px 0;
             border-radius: 4px;
             border: 1px solid #ccc;
             width: calc(100% - 22px);
+            background: #38384D;;
+            color: #c4c4c4;;
         }
         button {
             padding: 10px 20px;
             border-radius: 4px;
-            background-color: #4CAF50;
-            color: white;
+            background-color: #2D2D4A;
+            color: #c0bfbf;
             border: none;
             cursor: pointer;
             font-size: 16px;
@@ -50,7 +52,7 @@
     <div class="container">
         <h1>Calculadora de Robux a Dólares</h1>
         <h3 id="dolarTarjeta">Cargando valor del dólar tarjeta...</h3>
-        <label for="robux">Cantidad de Robux:</label>
+        <label for="robux">Escriba aquí la cantidad de Robux:</label>
         <input type="number" id="robux" placeholder="Ingresa la cantidad de Robux">
         <button onclick="convertir()">Convertir</button>
         <p id="respuesta" style="color: red;"></p>
